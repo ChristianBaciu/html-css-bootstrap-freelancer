@@ -58,9 +58,9 @@ header nav ul{
     text-transform: uppercase;
 }
 
-
-.container{
+.contaier-testo{
     width: 65%;
+    margin: 0 auto;
 }
 
 button{
@@ -69,13 +69,18 @@ button{
     border: 1px solid white;
 }
 
-
-
+/*contact me*/
+.container-contact{
+    width: 60%;
+    margin: 0 auto;
+    text-transform: capitalize;
+}
 
 #areatesto{
     width: 100%;
     border-top: 0px;
     border-right: 0px;
     border-left: 0px;
+    border-color: #c7c8c9;
 }
 
