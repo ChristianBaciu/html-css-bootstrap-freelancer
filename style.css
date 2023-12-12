@@ -18,9 +18,8 @@ header nav ul{
     display: flex;
 }
 
-.display-small{
+.display-xs{
     display: none;
-    fill: white;
 }
 
 .text-center .bg img{
@@ -84,3 +83,60 @@ button{
     border-color: #c7c8c9;
 }
 
+/*footer*/
+.container-footer{
+    width: 60%;
+    margin: 0 auto;
+}
+
+footer{
+    background-color: #3a546d;
+}
+
+footer h4{
+    text-transform: uppercase;
+}
+
+.app{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.app svg{
+    border: 1px solid white;
+}
+
+.container-footer span{
+    color: #1db599;
+}
+
+.copyright{
+    background-color: #2c3e50;
+}
+
+@media screen and ( max-width: 768px ){
+
+    .display-sx{
+        display: block;
+        border: 1px solid grey;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .display-xl{
+        display: none;
+    }
+
+    .container-footer{
+        width: 100%;
+    }
+    
+}
+
+@media screen and ( max-width: 480px ){
+
+    .contaier-testo{
+        width: 100%;
+    }
+}
