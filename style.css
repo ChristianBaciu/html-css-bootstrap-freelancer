@@ -1,33 +1,15 @@
-.bg-body-tertiary{
-    background-color: #2c3e50 !important;
-    /*prova*/
-}
-
-
-
 :root{
     --background-color: #1abc9c;
 }
 
-.text-center img{
-    width: 300px;
-    border-radius: 10px;
-}
-
-
-.contaier-img{
-    width: 1000px;
-    margin: 0 auto;
-}
 
 
 /*start bootstrap*/
-#container-bootstrap{
+.container-color{
     background-color: var(--background-color);
 }
 
 /*stella*/
-.bootstrap .stella,
 .text-center .stella{
     display: flex;
     justify-content: center;
@@ -35,36 +17,18 @@
     gap: 20px;
 }
 
-.bootstrap .stella .barra,
-.text-center .stella .barra{
+.stella .barra{
     width: 100px;
     height: 3px;
 }
 
-
-
-
-
-
-
-
-.bootstrap{
-    background-color: var(--background-color);
-    text-transform: uppercase;
+/*immagine*/
+.text-center img{
+    width: 300px;
+    border-radius: 5px;
 }
-
-/*stella*/
-
 
 /*about*/
-.container-about{
-    background-color: var(--background-color);
-}
-
-.container-about h1{
-    text-transform: uppercase;
-}
-
 .contaier-testo{
     width: 65%;
     margin: 0 auto;
