@@ -28,18 +28,11 @@ header nav ul{
 }
 
 /*start bootstrap*/
-.bootstrap{
+#container-bootstrap{
     background-color: var(--background-color);
-    text-transform: uppercase;
 }
 
 /*stella*/
-.bootstrap .stella .barra,
-.text-center .stella .barra{
-    width: 100px;
-    height: 3px;
-}
-
 .bootstrap .stella,
 .text-center .stella{
     display: flex;
@@ -47,6 +40,27 @@ header nav ul{
     align-items: center;
     gap: 20px;
 }
+
+.bootstrap .stella .barra,
+.text-center .stella .barra{
+    width: 100px;
+    height: 3px;
+}
+
+
+
+
+
+
+
+
+.bootstrap{
+    background-color: var(--background-color);
+    text-transform: uppercase;
+}
+
+/*stella*/
+
 
 /*about*/
 .container-about{
